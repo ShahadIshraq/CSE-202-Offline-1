@@ -20,7 +20,7 @@ public class Book {
         this.stock=stock;
     }
     public String getAuthorName(){
-        return this. getName();
+        return this.author.getName();
     }
     public double getPrice(){
         return price;
@@ -42,7 +42,7 @@ public class Book {
         this.stock=stock;
     }
     public void print(){
-        System.out.println( "Author: "+ getName()+" Name: "+name+" Price: "+price+" Stock: "+stock);
+        System.out.println( "Author: "+ this.getAuthorName()+" Name: "+name+" Price: "+price+" Stock: "+stock);
     }
     public String getName(){
         return name;
